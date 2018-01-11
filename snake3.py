@@ -44,7 +44,7 @@ class Body(object):
         self.x = 'this is the'
 
     def method_a(self, foo):
-        print self.x + ' ' + foo
+        print(self.x + ' ' + foo)
 
 body = Body().method_a('Body')
 
@@ -54,6 +54,6 @@ class Food(object):
         self.y = 'Yum, Tasty'
 
     def method_a(self, foo):
-        print self.y + ' ' + foo
+        print(self.y + ' ' + foo)
 
 food = Food().method_a('Food')

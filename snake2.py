@@ -20,7 +20,7 @@ class Snake(object):
         self.x = 'Hisss!'
 
     def method_a(self, foo):
-        print self.x + ' ' + foo
+        print(self.x + ' ' + foo)
 
 snake = Snake()               # We do not pass any argument to the __init__ method
 snake.method_a('Says the snake') # We only pass a single argument
@@ -31,7 +31,7 @@ class Body(object):
         self.x = 'this is the'
 
     def method_a(self, foo):
-        print self.x + ' ' + foo
+        print(self.x + ' ' + foo)
 
 body = Body().method_a('Body')
 
@@ -41,6 +41,6 @@ class Food(object):
         self.y = 'Yum, Tasty'
 
     def method_a(self, foo):
-        print self.y + ' ' + foo
+        print(self.y + ' ' + foo)
 
 food = Food().method_a('Food')

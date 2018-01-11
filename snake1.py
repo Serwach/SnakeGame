@@ -23,7 +23,7 @@ class Snake(object):
         self.x = 'Hisss!'
 
     def method_a(self, foo):
-        print self.x + ' ' + foo
+        print(self.x + ' ' + foo)
 
 snake = Snake()               # We do not pass any argument to the __init__ method
 snake.method_a('Says the snake') # We only pass a single argument

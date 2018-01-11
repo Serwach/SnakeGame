@@ -68,6 +68,6 @@ class Food(object):
         self.y = 'Yum, Tasty'
 
     def method_a(self, foo):
-        print self.y + ' ' + foo
+        print(self.y + ' ' + foo)
 
 food = Food().method_a('Food')
